@@ -33,7 +33,7 @@ require("PHPMailer/class.smtp.php");
 	
 	$smtpHost = "SMTP.gmail.com";  // Dominio alternativo brindado en el email de alta
 	$smtpUsuario = "veros7821@gmail.com";  // Mi cuenta de correo
-	$smtpClave = "bIANCA13";  // Mi contraseña
+	$smtpClave = "bIANCa";  // Mi contraseña
 	
 	$mail = new PHPMailer();
 	$mail->IsSMTP ();
