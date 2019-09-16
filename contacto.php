@@ -40,7 +40,7 @@ require("PHPMailer/class.smtp.php");
 	$mail->SMTPAuth = true;
 	$mail->Host = "SMTP.gmail.com"; // SMTP a utilizar. Por ej. smtp.elserver.com
 	$mail->Username = "veros7821@gmail.com"; // Correo completo a utilizar
-	$mail->Password = "bIANCA13"; // Contraseña
+	$mail->Password = "bIANCa"; // Contraseña
 	$mail->Port = 587; // Puerto a utilizar
 	$mail->From = $visitante_email; // Desde donde enviamos (Para mostrar)
 	$mail->FromName = $visitante_nombre;
